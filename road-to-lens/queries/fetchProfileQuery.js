@@ -278,6 +278,7 @@ export default gql`
     }
   }
 
+  
   fragment PostFields on Post {
     id
     profile {

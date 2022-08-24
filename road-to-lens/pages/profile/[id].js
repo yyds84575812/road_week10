@@ -20,7 +20,7 @@ export default function ProfilePage() {
   });
 
   if (loading) return "Loading..";
-  if (error) return `Error! ${error.message}`;
+  if (error) return `Error!  ${error.message}`;
 
   return (
     <div className="flex flex-col p-8 items-center">
